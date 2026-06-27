@@ -301,12 +301,3 @@ Possible exit paths:
 
 ---
 
-## 👥 Team
-
-Built as a hackathon MVP demonstrating how Agentic AI can enable proactive retail banking through financial signal detection, machine learning, conversational AI, and intelligent human-in-the-loop escalation.
-
----
-
-## 📄 License
-
-This project is intended for educational and hackathon purposes.
