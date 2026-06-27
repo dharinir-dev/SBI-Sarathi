@@ -1,0 +1,5216 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST1001",
+      "name": "Arjun Menon",
+      "age": 47,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "ppf",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        84290,
+        83483,
+        77229,
+        189878,
+        193819,
+        225799
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 71800
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 71800
+        },
+        {
+          "date": "2026-04-29",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 5100
+        },
+        {
+          "date": "2026-04-30",
+          "type": "debit",
+          "category": "rent",
+          "amount": 15700
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "emi",
+          "amount": 15500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 71800
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1002",
+      "name": "Keerthi Choudhury",
+      "age": 51,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        32597,
+        88582,
+        75629,
+        51488,
+        81682,
+        58724
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 89100
+        },
+        {
+          "date": "2026-03-31",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 20000
+        },
+        {
+          "date": "2026-03-31",
+          "type": "debit",
+          "category": "utility",
+          "amount": 2200
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 89100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 89100
+        },
+        {
+          "date": "2026-05-27",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 11200
+        },
+        {
+          "date": "2026-06-17",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 16500
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1003",
+      "name": "Aadhya Mehta",
+      "age": 48,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        59817,
+        41846,
+        86881,
+        42903,
+        43173,
+        88153
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50900
+        },
+        {
+          "date": "2026-03-28",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 31300
+        },
+        {
+          "date": "2026-04-01",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 33500
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50900
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 19500
+        },
+        {
+          "date": "2026-05-16",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 10300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50900
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1004",
+      "name": "Ayaan Bhat",
+      "age": 35,
+      "city": "Ahmedabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        64952,
+        87921,
+        73502,
+        31503,
+        87101,
+        74986
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48600
+        },
+        {
+          "date": "2026-03-25",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 17800
+        },
+        {
+          "date": "2026-04-04",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 10900
+        },
+        {
+          "date": "2026-04-16",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 8100
+        },
+        {
+          "date": "2026-04-21",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 24600
+        },
+        {
+          "date": "2026-04-23",
+          "type": "debit",
+          "category": "rent",
+          "amount": 17400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48600
+        },
+        {
+          "date": "2026-04-30",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 48100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48600
+        },
+        {
+          "date": "2026-05-24",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 5800
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1005",
+      "name": "Sneha Iyer",
+      "age": 31,
+      "city": "Coimbatore",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        44504,
+        30587,
+        55348,
+        54757,
+        78401,
+        93214
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 40000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 61200
+        },
+        {
+          "date": "2026-04-24",
+          "type": "debit",
+          "category": "emi",
+          "amount": 6900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 56300
+        },
+        {
+          "date": "2026-05-26",
+          "type": "debit",
+          "category": "rent",
+          "amount": 34700
+        },
+        {
+          "date": "2026-06-05",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2100
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1006",
+      "name": "Amit Thakur",
+      "age": 24,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        84533,
+        42408,
+        79174,
+        34321,
+        29679,
+        28908
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 45900
+        },
+        {
+          "date": "2026-04-09",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 13000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 45900
+        },
+        {
+          "date": "2026-05-05",
+          "type": "debit",
+          "category": "utility",
+          "amount": 2600
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 45900
+        },
+        {
+          "date": "2026-05-27",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 8200
+        },
+        {
+          "date": "2026-06-09",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 17400
+        },
+        {
+          "date": "2026-06-09",
+          "type": "debit",
+          "category": "rent",
+          "amount": 9300
+        },
+        {
+          "date": "2026-06-22",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 11900
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1007",
+      "name": "Pallavi Singh",
+      "age": 51,
+      "city": "Kochi",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        60892,
+        64099,
+        72530,
+        57203,
+        68167,
+        1428209
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 77500
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 77500
+        },
+        {
+          "date": "2026-05-03",
+          "type": "debit",
+          "category": "rent",
+          "amount": 21000
+        },
+        {
+          "date": "2026-05-16",
+          "type": "debit",
+          "category": "utility",
+          "amount": 1100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 77500
+        },
+        {
+          "date": "2026-05-25",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 36500
+        },
+        {
+          "date": "2026-06-04",
+          "type": "credit",
+          "category": "insurance_payout",
+          "amount": 1361867
+        },
+        {
+          "date": "2026-06-11",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2200
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1008",
+      "name": "Deepak Kamath",
+      "age": 23,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        56896,
+        26552,
+        24801,
+        55234,
+        96449,
+        105794
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 60000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 87200
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 3800
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 6000
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92400
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1009",
+      "name": "Aditya Tiwari",
+      "age": 37,
+      "city": "Bangalore",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        63678,
+        175983,
+        147311,
+        195369,
+        76893,
+        185242
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 76300
+        },
+        {
+          "date": "2026-04-04",
+          "type": "debit",
+          "category": "forex",
+          "amount": 32900
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "travel",
+          "amount": 73000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 76300
+        },
+        {
+          "date": "2026-05-17",
+          "type": "debit",
+          "category": "rent",
+          "amount": 9700
+        },
+        {
+          "date": "2026-05-19",
+          "type": "debit",
+          "category": "forex",
+          "amount": 77000
+        },
+        {
+          "date": "2026-05-21",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 24700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 76300
+        },
+        {
+          "date": "2026-05-28",
+          "type": "debit",
+          "category": "utility",
+          "amount": 3600
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1010",
+      "name": "Meera Nair",
+      "age": 36,
+      "city": "Mumbai",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        448813,
+        453183,
+        432270,
+        434174,
+        457004,
+        423322
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1011",
+      "name": "Amit Pandey",
+      "age": 58,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "rd",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        59010,
+        67697,
+        53981,
+        85035,
+        43229,
+        36894
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 73400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 73400
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 25000
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 4900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 73400
+        },
+        {
+          "date": "2026-05-24",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 16400
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 6000
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1012",
+      "name": "Keerthi Desai",
+      "age": 33,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        32465,
+        55146,
+        49400,
+        29186,
+        72810,
+        82373
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 42600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 67500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 74500
+        },
+        {
+          "date": "2026-06-03",
+          "type": "debit",
+          "category": "utility",
+          "amount": 1300
+        },
+        {
+          "date": "2026-06-16",
+          "type": "debit",
+          "category": "rent",
+          "amount": 25700
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1013",
+      "name": "Riya Mishra",
+      "age": 49,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        49288,
+        54025,
+        61015,
+        140020,
+        164945,
+        152774
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 85600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 85600
+        },
+        {
+          "date": "2026-05-12",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 8800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 85600
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1014",
+      "name": "Anjali Kamath",
+      "age": 49,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        90436,
+        92532,
+        97407,
+        93395,
+        164733,
+        61453
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 113900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 113900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "debit",
+          "category": "travel",
+          "amount": 78300
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 7100
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 33700
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 8600
+        },
+        {
+          "date": "2026-05-21",
+          "type": "debit",
+          "category": "forex",
+          "amount": 50000
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 113900
+        },
+        {
+          "date": "2026-06-19",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 30600
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1015",
+      "name": "Janani Banerjee",
+      "age": 33,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        72840,
+        78934,
+        71342,
+        73668,
+        80406,
+        694115
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48000
+        },
+        {
+          "date": "2026-05-04",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 45800
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48000
+        },
+        {
+          "date": "2026-05-28",
+          "type": "credit",
+          "category": "bonus",
+          "amount": 619804
+        },
+        {
+          "date": "2026-06-23",
+          "type": "debit",
+          "category": "emi",
+          "amount": 7100
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1016",
+      "name": "Pooja Hegde",
+      "age": 33,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "sip",
+        "rd"
+      ],
+      "monthly_balance_avg_6m": [
+        51239,
+        50181,
+        50537,
+        55105,
+        60240,
+        1144124
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50900
+        },
+        {
+          "date": "2026-03-30",
+          "type": "debit",
+          "category": "utility",
+          "amount": 3400
+        },
+        {
+          "date": "2026-04-01",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 6900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50900
+        },
+        {
+          "date": "2026-05-19",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 5500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50900
+        },
+        {
+          "date": "2026-06-15",
+          "type": "credit",
+          "category": "insurance_payout",
+          "amount": 1093630
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1017",
+      "name": "Pallavi Kulkarni",
+      "age": 57,
+      "city": "Kochi",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "rd",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        77181,
+        89477,
+        62088,
+        76290,
+        27691,
+        47754
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 69900
+        },
+        {
+          "date": "2026-04-13",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 30500
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 69900
+        },
+        {
+          "date": "2026-05-17",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 6500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 69900
+        },
+        {
+          "date": "2026-05-28",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 3400
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "emi",
+          "amount": 20100
+        },
+        {
+          "date": "2026-06-17",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 5300
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1018",
+      "name": "Nisha Subramaniam",
+      "age": 45,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        430196,
+        426063,
+        416850,
+        435625,
+        440440,
+        427935
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1019",
+      "name": "Neha Singh",
+      "age": 52,
+      "city": "Bangalore",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "ppf",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        55488,
+        49581,
+        41658,
+        112588,
+        141288,
+        117539
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 54700
+        },
+        {
+          "date": "2026-03-28",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 1900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 54700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 54700
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1020",
+      "name": "Riya Naidu",
+      "age": 44,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        78311,
+        64362,
+        79941,
+        78689,
+        44201,
+        60647
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70900
+        },
+        {
+          "date": "2026-04-08",
+          "type": "debit",
+          "category": "utility",
+          "amount": 1600
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 51600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70900
+        },
+        {
+          "date": "2026-05-02",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 44500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70900
+        },
+        {
+          "date": "2026-06-12",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 50000
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1021",
+      "name": "Kavya Iyer",
+      "age": 53,
+      "city": "Mumbai",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        496281,
+        488204,
+        476789,
+        480465,
+        503218,
+        492824
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1022",
+      "name": "Deepak Pandey",
+      "age": 42,
+      "city": "Ahmedabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        72268,
+        63502,
+        70907,
+        53788,
+        53368,
+        432775
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 43000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 43000
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 43000
+        },
+        {
+          "date": "2026-06-06",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 4900
+        },
+        {
+          "date": "2026-06-13",
+          "type": "debit",
+          "category": "utility",
+          "amount": 5000
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 1500
+        },
+        {
+          "date": "2026-06-15",
+          "type": "debit",
+          "category": "emi",
+          "amount": 14900
+        },
+        {
+          "date": "2026-06-23",
+          "type": "credit",
+          "category": "inheritance",
+          "amount": 370336
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1023",
+      "name": "Bhavana Naidu",
+      "age": 39,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        95836,
+        73515,
+        43154,
+        87711,
+        43069,
+        98937
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 99700
+        },
+        {
+          "date": "2026-03-26",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 36900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 99700
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "rent",
+          "amount": 30100
+        },
+        {
+          "date": "2026-05-12",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 6200
+        },
+        {
+          "date": "2026-05-14",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 44600
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 99700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 32200
+        },
+        {
+          "date": "2026-06-16",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 14900
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1024",
+      "name": "Aadhya Bose",
+      "age": 52,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        180386,
+        162893,
+        96057,
+        83865,
+        149669,
+        189613
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 90200
+        },
+        {
+          "date": "2026-03-30",
+          "type": "debit",
+          "category": "travel",
+          "amount": 16200
+        },
+        {
+          "date": "2026-04-08",
+          "type": "debit",
+          "category": "emi",
+          "amount": 18300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 90200
+        },
+        {
+          "date": "2026-05-04",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 43100
+        },
+        {
+          "date": "2026-05-09",
+          "type": "debit",
+          "category": "forex",
+          "amount": 41000
+        },
+        {
+          "date": "2026-05-22",
+          "type": "debit",
+          "category": "forex",
+          "amount": 71500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 90200
+        },
+        {
+          "date": "2026-06-04",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 67800
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 29400
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1025",
+      "name": "Pranav Subramaniam",
+      "age": 34,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        30336,
+        67072,
+        69132,
+        94178,
+        49476,
+        88529
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 75300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 75300
+        },
+        {
+          "date": "2026-05-05",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 55700
+        },
+        {
+          "date": "2026-05-08",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 46200
+        },
+        {
+          "date": "2026-05-13",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 4800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 75300
+        },
+        {
+          "date": "2026-06-02",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 39800
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1026",
+      "name": "Reyansh Nair",
+      "age": 44,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        175069,
+        181517,
+        161262,
+        168022,
+        151507,
+        149659
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1027",
+      "name": "Neha Subramaniam",
+      "age": 26,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        429764,
+        414532,
+        420720,
+        406917,
+        442371,
+        412050
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1028",
+      "name": "Anjali Rao",
+      "age": 26,
+      "city": "Mumbai",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        89572,
+        165281,
+        67900,
+        172924,
+        165922,
+        129382
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 96000
+        },
+        {
+          "date": "2026-04-01",
+          "type": "debit",
+          "category": "travel",
+          "amount": 48200
+        },
+        {
+          "date": "2026-04-03",
+          "type": "debit",
+          "category": "travel",
+          "amount": 45300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 96000
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "travel",
+          "amount": 20000
+        },
+        {
+          "date": "2026-05-21",
+          "type": "debit",
+          "category": "forex",
+          "amount": 18700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 96000
+        },
+        {
+          "date": "2026-06-06",
+          "type": "debit",
+          "category": "utility",
+          "amount": 2000
+        },
+        {
+          "date": "2026-06-07",
+          "type": "debit",
+          "category": "utility",
+          "amount": 800
+        },
+        {
+          "date": "2026-06-15",
+          "type": "debit",
+          "category": "forex",
+          "amount": 55300
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1029",
+      "name": "Dhruv Mukherjee",
+      "age": 32,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf",
+        "health_insurance"
+      ],
+      "monthly_balance_avg_6m": [
+        38609,
+        46540,
+        66046,
+        72622,
+        79925,
+        99541
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 59300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 59300
+        },
+        {
+          "date": "2026-05-15",
+          "type": "debit",
+          "category": "utility",
+          "amount": 3900
+        },
+        {
+          "date": "2026-05-16",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 4300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 59300
+        },
+        {
+          "date": "2026-05-28",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 16500
+        },
+        {
+          "date": "2026-06-16",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 38200
+        },
+        {
+          "date": "2026-06-22",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 52900
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1030",
+      "name": "Shreya Jain",
+      "age": 44,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "health_insurance",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        56318,
+        47322,
+        77953,
+        99579,
+        95771,
+        65720
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94400
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 7000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94400
+        },
+        {
+          "date": "2026-04-26",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 29300
+        },
+        {
+          "date": "2026-05-07",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 40700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94400
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1031",
+      "name": "Pooja Menon",
+      "age": 27,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        49471,
+        47775,
+        43984,
+        123897,
+        115518,
+        116216
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 89900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 89900
+        },
+        {
+          "date": "2026-05-17",
+          "type": "debit",
+          "category": "emi",
+          "amount": 13300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 89900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "debit",
+          "category": "rent",
+          "amount": 8600
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1032",
+      "name": "Ishaan Shah",
+      "age": 39,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "health_insurance",
+        "rd",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        48758,
+        60433,
+        90443,
+        63289,
+        90236,
+        63466
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 83700
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 83700
+        },
+        {
+          "date": "2026-05-18",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 47200
+        },
+        {
+          "date": "2026-05-23",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 54400
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 83700
+        },
+        {
+          "date": "2026-06-02",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 14800
+        },
+        {
+          "date": "2026-06-08",
+          "type": "debit",
+          "category": "emi",
+          "amount": 14800
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1033",
+      "name": "Divya Malhotra",
+      "age": 48,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        23665,
+        35010,
+        22103,
+        40673,
+        87158,
+        93242
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 51300
+        },
+        {
+          "date": "2026-04-21",
+          "type": "debit",
+          "category": "emi",
+          "amount": 21400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 76100
+        },
+        {
+          "date": "2026-04-27",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2600
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 91100
+        },
+        {
+          "date": "2026-06-04",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 5900
+        },
+        {
+          "date": "2026-06-15",
+          "type": "debit",
+          "category": "utility",
+          "amount": 4300
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1034",
+      "name": "Anika Iyer",
+      "age": 42,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "pending",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        61088,
+        63389,
+        48727,
+        50980,
+        63889,
+        577808
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 59900
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 24700
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 59900
+        },
+        {
+          "date": "2026-04-26",
+          "type": "debit",
+          "category": "rent",
+          "amount": 14400
+        },
+        {
+          "date": "2026-04-30",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 14900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 59900
+        },
+        {
+          "date": "2026-05-29",
+          "type": "credit",
+          "category": "maturity",
+          "amount": 520896
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1035",
+      "name": "Deepak Shah",
+      "age": 25,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        83094,
+        78589,
+        94260,
+        86088,
+        79564,
+        378171
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63100
+        },
+        {
+          "date": "2026-04-11",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63100
+        },
+        {
+          "date": "2026-05-22",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 4400
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63100
+        },
+        {
+          "date": "2026-05-25",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 43400
+        },
+        {
+          "date": "2026-06-10",
+          "type": "credit",
+          "category": "inheritance",
+          "amount": 292978
+        },
+        {
+          "date": "2026-06-20",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 5300
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1036",
+      "name": "Aditya Gupta",
+      "age": 37,
+      "city": "Jaipur",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        55343,
+        33182,
+        40428,
+        46148,
+        87653,
+        103300
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 43900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 68000
+        },
+        {
+          "date": "2026-04-25",
+          "type": "debit",
+          "category": "rent",
+          "amount": 15400
+        },
+        {
+          "date": "2026-05-07",
+          "type": "debit",
+          "category": "rent",
+          "amount": 8700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 77200
+        },
+        {
+          "date": "2026-06-03",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 4800
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1037",
+      "name": "Pranav Bhat",
+      "age": 55,
+      "city": "Kochi",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        30484,
+        47666,
+        59086,
+        24163,
+        67722,
+        82485
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 40000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 72000
+        },
+        {
+          "date": "2026-05-01",
+          "type": "debit",
+          "category": "rent",
+          "amount": 22200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 64500
+        },
+        {
+          "date": "2026-06-15",
+          "type": "debit",
+          "category": "emi",
+          "amount": 16100
+        },
+        {
+          "date": "2026-06-20",
+          "type": "debit",
+          "category": "rent",
+          "amount": 31600
+        },
+        {
+          "date": "2026-06-20",
+          "type": "debit",
+          "category": "rent",
+          "amount": 25600
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1038",
+      "name": "Ayaan Reddy",
+      "age": 45,
+      "city": "Mumbai",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        29815,
+        42808,
+        26111,
+        94058,
+        79567,
+        98028
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48400
+        },
+        {
+          "date": "2026-05-10",
+          "type": "debit",
+          "category": "emi",
+          "amount": 6300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 48400
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1039",
+      "name": "Arjun Reddy",
+      "age": 26,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        65123,
+        64338,
+        66586,
+        65937,
+        57404,
+        974154
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 79800
+        },
+        {
+          "date": "2026-04-07",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 6200
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 79800
+        },
+        {
+          "date": "2026-05-08",
+          "type": "debit",
+          "category": "emi",
+          "amount": 18100
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 5700
+        },
+        {
+          "date": "2026-05-23",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 79800
+        },
+        {
+          "date": "2026-05-28",
+          "type": "credit",
+          "category": "inheritance",
+          "amount": 913435
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1040",
+      "name": "Vihaan Verma",
+      "age": 34,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        72935,
+        72798,
+        73477,
+        79519,
+        61993,
+        1539907
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50100
+        },
+        {
+          "date": "2026-04-11",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 9700
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50100
+        },
+        {
+          "date": "2026-05-14",
+          "type": "debit",
+          "category": "emi",
+          "amount": 15300
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "emi",
+          "amount": 7500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 50100
+        },
+        {
+          "date": "2026-06-14",
+          "type": "credit",
+          "category": "insurance_payout",
+          "amount": 1468975
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1041",
+      "name": "Ananya Malhotra",
+      "age": 35,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        32875,
+        81879,
+        65976,
+        31061,
+        36428,
+        95107
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94600
+        },
+        {
+          "date": "2026-04-23",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 24400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94600
+        },
+        {
+          "date": "2026-04-26",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 51200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94600
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 50700
+        },
+        {
+          "date": "2026-06-15",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 4600
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1042",
+      "name": "Reyansh Kumar",
+      "age": 38,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        79442,
+        86251,
+        30679,
+        43279,
+        82778,
+        54543
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 51000
+        },
+        {
+          "date": "2026-03-28",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 13600
+        },
+        {
+          "date": "2026-04-17",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 10000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 51000
+        },
+        {
+          "date": "2026-05-07",
+          "type": "debit",
+          "category": "emi",
+          "amount": 14200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 51000
+        },
+        {
+          "date": "2026-06-05",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 14000
+        },
+        {
+          "date": "2026-06-22",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 5500
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1043",
+      "name": "Advait Kulkarni",
+      "age": 30,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        78629,
+        84935,
+        50253,
+        84379,
+        42978,
+        94139
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 80300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 80300
+        },
+        {
+          "date": "2026-04-29",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 55200
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 39100
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 37700
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 33800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 80300
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1044",
+      "name": "Kavya Joshi",
+      "age": 52,
+      "city": "Kochi",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        23003,
+        34935,
+        38965,
+        25229,
+        66616,
+        85812
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 34600
+        },
+        {
+          "date": "2026-04-14",
+          "type": "debit",
+          "category": "emi",
+          "amount": 17100
+        },
+        {
+          "date": "2026-04-20",
+          "type": "debit",
+          "category": "emi",
+          "amount": 13700
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 49800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 52200
+        },
+        {
+          "date": "2026-06-10",
+          "type": "debit",
+          "category": "rent",
+          "amount": 28800
+        },
+        {
+          "date": "2026-06-20",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 44500
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1045",
+      "name": "Manoj Gupta",
+      "age": 29,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        35597,
+        38250,
+        51812,
+        34040,
+        112715,
+        129566
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63700
+        },
+        {
+          "date": "2026-04-06",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 113000
+        },
+        {
+          "date": "2026-05-19",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 25200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 103700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 4800
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1046",
+      "name": "Shaurya Iyer",
+      "age": 39,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf",
+        "credit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        86783,
+        73748,
+        77579,
+        194240,
+        184917,
+        202252
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 53300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 53300
+        },
+        {
+          "date": "2026-04-26",
+          "type": "debit",
+          "category": "utility",
+          "amount": 900
+        },
+        {
+          "date": "2026-04-27",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 35100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 53300
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "rent",
+          "amount": 21900
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1047",
+      "name": "Rajesh Malhotra",
+      "age": 37,
+      "city": "Jaipur",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "pending",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        429383,
+        430866,
+        428081,
+        432870,
+        415626,
+        427101
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1048",
+      "name": "Shaurya Gupta",
+      "age": 26,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        30789,
+        44836,
+        20141,
+        45586,
+        55250,
+        73096
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 33800
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 58000
+        },
+        {
+          "date": "2026-05-01",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 3300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 51200
+        },
+        {
+          "date": "2026-05-26",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 12100
+        },
+        {
+          "date": "2026-06-04",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 45400
+        },
+        {
+          "date": "2026-06-07",
+          "type": "debit",
+          "category": "rent",
+          "amount": 32100
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1049",
+      "name": "Ritvik Kapoor",
+      "age": 53,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        115965,
+        111938,
+        110939,
+        122045,
+        122584,
+        1294700
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 72700
+        },
+        {
+          "date": "2026-04-05",
+          "type": "debit",
+          "category": "rent",
+          "amount": 20900
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 72700
+        },
+        {
+          "date": "2026-05-22",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 4900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 72700
+        },
+        {
+          "date": "2026-06-07",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 4400
+        },
+        {
+          "date": "2026-06-21",
+          "type": "credit",
+          "category": "inheritance",
+          "amount": 1178982
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1050",
+      "name": "Aditya Chauhan",
+      "age": 28,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "rd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        64423,
+        66745,
+        56614,
+        65924,
+        64000,
+        526091
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92400
+        },
+        {
+          "date": "2026-04-17",
+          "type": "debit",
+          "category": "emi",
+          "amount": 21300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92400
+        },
+        {
+          "date": "2026-05-20",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 27300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92400
+        },
+        {
+          "date": "2026-05-27",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 26100
+        },
+        {
+          "date": "2026-06-04",
+          "type": "credit",
+          "category": "insurance_payout",
+          "amount": 461043
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1051",
+      "name": "Myra Iyer",
+      "age": 29,
+      "city": "Jaipur",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        90870,
+        95148,
+        98467,
+        99695,
+        98473,
+        391362
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 66300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 66300
+        },
+        {
+          "date": "2026-04-29",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 14500
+        },
+        {
+          "date": "2026-04-30",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 2200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 66300
+        },
+        {
+          "date": "2026-05-25",
+          "type": "credit",
+          "category": "maturity",
+          "amount": 294880
+        },
+        {
+          "date": "2026-05-28",
+          "type": "debit",
+          "category": "utility",
+          "amount": 4200
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1052",
+      "name": "Rahul Srinivasan",
+      "age": 45,
+      "city": "Bangalore",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        36450,
+        44159,
+        31461,
+        93052,
+        103068,
+        108280
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92600
+        },
+        {
+          "date": "2026-03-29",
+          "type": "debit",
+          "category": "utility",
+          "amount": 4400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92600
+        },
+        {
+          "date": "2026-04-25",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 19500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 92600
+        },
+        {
+          "date": "2026-06-22",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2400
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1053",
+      "name": "Krishna Kapoor",
+      "age": 32,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip"
+      ],
+      "monthly_balance_avg_6m": [
+        182264,
+        95235,
+        60260,
+        114944,
+        164755,
+        165191
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 128700
+        },
+        {
+          "date": "2026-04-06",
+          "type": "debit",
+          "category": "emi",
+          "amount": 23300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 128700
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "travel",
+          "amount": 40400
+        },
+        {
+          "date": "2026-05-16",
+          "type": "debit",
+          "category": "travel",
+          "amount": 59500
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 128700
+        },
+        {
+          "date": "2026-06-09",
+          "type": "debit",
+          "category": "forex",
+          "amount": 66700
+        },
+        {
+          "date": "2026-06-11",
+          "type": "debit",
+          "category": "forex",
+          "amount": 38800
+        },
+        {
+          "date": "2026-06-13",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 36900
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1054",
+      "name": "Isha Singh",
+      "age": 38,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        65719,
+        34986,
+        40633,
+        33272,
+        56035,
+        68873
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 42500
+        },
+        {
+          "date": "2026-04-21",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 11400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 42500
+        },
+        {
+          "date": "2026-05-03",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 22000
+        },
+        {
+          "date": "2026-05-11",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 22900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 42500
+        },
+        {
+          "date": "2026-06-06",
+          "type": "debit",
+          "category": "emi",
+          "amount": 17300
+        },
+        {
+          "date": "2026-06-10",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 8400
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1055",
+      "name": "Dhruv Bose",
+      "age": 52,
+      "city": "Coimbatore",
+      "language_pref": "ta",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        60040,
+        125203,
+        173851,
+        86383,
+        172974,
+        167598
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 140700
+        },
+        {
+          "date": "2026-04-04",
+          "type": "debit",
+          "category": "forex",
+          "amount": 31800
+        },
+        {
+          "date": "2026-04-21",
+          "type": "debit",
+          "category": "forex",
+          "amount": 51000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 140700
+        },
+        {
+          "date": "2026-04-24",
+          "type": "debit",
+          "category": "emi",
+          "amount": 14900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 140700
+        },
+        {
+          "date": "2026-06-10",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 42700
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1056",
+      "name": "Nisha Nair",
+      "age": 57,
+      "city": "Coimbatore",
+      "language_pref": "ta",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "rd",
+        "ppf",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        67329,
+        71651,
+        57166,
+        54371,
+        76965,
+        26130
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 41100
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 11000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 41100
+        },
+        {
+          "date": "2026-04-26",
+          "type": "debit",
+          "category": "emi",
+          "amount": 12600
+        },
+        {
+          "date": "2026-05-03",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 18500
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 6800
+        },
+        {
+          "date": "2026-05-22",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 19800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 41100
+        },
+        {
+          "date": "2026-06-03",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 16900
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1057",
+      "name": "Suresh Hegde",
+      "age": 31,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf",
+        "rd"
+      ],
+      "monthly_balance_avg_6m": [
+        45365,
+        61099,
+        25896,
+        61192,
+        51738,
+        31108
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 49700
+        },
+        {
+          "date": "2026-04-13",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 12600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 49700
+        },
+        {
+          "date": "2026-04-28",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 29200
+        },
+        {
+          "date": "2026-05-23",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 24200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 49700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "debit",
+          "category": "utility",
+          "amount": 2500
+        },
+        {
+          "date": "2026-06-03",
+          "type": "debit",
+          "category": "utility",
+          "amount": 1700
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1058",
+      "name": "Pooja Jain",
+      "age": 46,
+      "city": "Bangalore",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        163213,
+        75313,
+        147687,
+        84108,
+        195849,
+        65723
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 136900
+        },
+        {
+          "date": "2026-03-31",
+          "type": "debit",
+          "category": "travel",
+          "amount": 54300
+        },
+        {
+          "date": "2026-04-09",
+          "type": "debit",
+          "category": "travel",
+          "amount": 38200
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 136900
+        },
+        {
+          "date": "2026-05-03",
+          "type": "debit",
+          "category": "travel",
+          "amount": 21800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 136900
+        },
+        {
+          "date": "2026-06-04",
+          "type": "debit",
+          "category": "travel",
+          "amount": 58900
+        },
+        {
+          "date": "2026-06-17",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 5400
+        },
+        {
+          "date": "2026-06-18",
+          "type": "debit",
+          "category": "travel",
+          "amount": 71900
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1059",
+      "name": "Sai Nair",
+      "age": 40,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "health_insurance"
+      ],
+      "monthly_balance_avg_6m": [
+        36629,
+        73713,
+        61925,
+        46505,
+        56896,
+        38992
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94400
+        },
+        {
+          "date": "2026-04-12",
+          "type": "debit",
+          "category": "emi",
+          "amount": 9300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94400
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 49100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94400
+        },
+        {
+          "date": "2026-06-08",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 25300
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1060",
+      "name": "Rahul Yadav",
+      "age": 42,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        57227,
+        29855,
+        62815,
+        66251,
+        69987,
+        28513
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 44900
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 13700
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 44900
+        },
+        {
+          "date": "2026-04-25",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 21300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 44900
+        },
+        {
+          "date": "2026-06-05",
+          "type": "debit",
+          "category": "pharmacy",
+          "amount": 5800
+        },
+        {
+          "date": "2026-06-09",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 14000
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1061",
+      "name": "Deepak Srinivasan",
+      "age": 56,
+      "city": "Coimbatore",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        29852,
+        33163,
+        43602,
+        93683,
+        90868,
+        113286
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70400
+        },
+        {
+          "date": "2026-04-25",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 14900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70400
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1062",
+      "name": "Rahul Mishra",
+      "age": 28,
+      "city": "Delhi",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        47696,
+        42298,
+        38210,
+        30189,
+        121784,
+        139293
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 75800
+        },
+        {
+          "date": "2026-03-30",
+          "type": "debit",
+          "category": "emi",
+          "amount": 20100
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 116300
+        },
+        {
+          "date": "2026-05-08",
+          "type": "debit",
+          "category": "emi",
+          "amount": 24800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 108900
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1063",
+      "name": "Kavya Desai",
+      "age": 26,
+      "city": "Jaipur",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        320548,
+        329984,
+        313705,
+        329799,
+        316128,
+        333648
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1064",
+      "name": "Tanya Patil",
+      "age": 49,
+      "city": "Bangalore",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        27296,
+        21639,
+        38024,
+        36049,
+        115882,
+        132948
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 71900
+        },
+        {
+          "date": "2026-03-28",
+          "type": "debit",
+          "category": "rent",
+          "amount": 11100
+        },
+        {
+          "date": "2026-03-28",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 10200
+        },
+        {
+          "date": "2026-04-23",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 5600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 103600
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 122000
+        },
+        {
+          "date": "2026-06-08",
+          "type": "debit",
+          "category": "rent",
+          "amount": 21800
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1065",
+      "name": "Ritvik Yadav",
+      "age": 44,
+      "city": "Jaipur",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        79567,
+        37721,
+        44414,
+        39908,
+        48650,
+        36759
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 54800
+        },
+        {
+          "date": "2026-03-30",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 21100
+        },
+        {
+          "date": "2026-04-07",
+          "type": "debit",
+          "category": "utility",
+          "amount": 600
+        },
+        {
+          "date": "2026-04-10",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 43800
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 54800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 54800
+        },
+        {
+          "date": "2026-06-23",
+          "type": "debit",
+          "category": "hospital",
+          "amount": 12000
+        }
+      ],
+      "life_event_signals": [
+        "recurring_hospital_debit"
+      ]
+    },
+    {
+      "customer_id": "CUST1066",
+      "name": "Neha Mukherjee",
+      "age": 30,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "ppf",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        64137,
+        51472,
+        53590,
+        113396,
+        156938,
+        139065
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 40100
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 40100
+        },
+        {
+          "date": "2026-05-19",
+          "type": "debit",
+          "category": "emi",
+          "amount": 7300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 40100
+        },
+        {
+          "date": "2026-06-18",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 14900
+        },
+        {
+          "date": "2026-06-20",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 12800
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1067",
+      "name": "Suresh Rao",
+      "age": 27,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "sip",
+        "ppf",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        113783,
+        164209,
+        154975,
+        187353,
+        70616,
+        153747
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 100700
+        },
+        {
+          "date": "2026-04-07",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 2700
+        },
+        {
+          "date": "2026-04-15",
+          "type": "debit",
+          "category": "forex",
+          "amount": 48500
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 100700
+        },
+        {
+          "date": "2026-05-07",
+          "type": "debit",
+          "category": "forex",
+          "amount": 36800
+        },
+        {
+          "date": "2026-05-08",
+          "type": "debit",
+          "category": "travel",
+          "amount": 62700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 100700
+        },
+        {
+          "date": "2026-05-29",
+          "type": "debit",
+          "category": "forex",
+          "amount": 74400
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "forex",
+          "amount": 49800
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1068",
+      "name": "Rashmi Verma",
+      "age": 28,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        34644,
+        32916,
+        35150,
+        87533,
+        69212,
+        91345
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70600
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 70600
+        },
+        {
+          "date": "2026-06-01",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 1400
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1069",
+      "name": "Anika Patel",
+      "age": 29,
+      "city": "Jaipur",
+      "language_pref": "hi",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd",
+        "credit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        69583,
+        76311,
+        74011,
+        183027,
+        155609,
+        183095
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63000
+        },
+        {
+          "date": "2026-04-27",
+          "type": "debit",
+          "category": "rent",
+          "amount": 13900
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 1500
+        },
+        {
+          "date": "2026-05-15",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 12100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63000
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    },
+    {
+      "customer_id": "CUST1070",
+      "name": "Revathi Pandey",
+      "age": 34,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf",
+        "rd"
+      ],
+      "monthly_balance_avg_6m": [
+        32068,
+        52838,
+        64782,
+        36868,
+        46614,
+        85176
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 74500
+        },
+        {
+          "date": "2026-04-02",
+          "type": "debit",
+          "category": "tuition",
+          "amount": 39400
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 74500
+        },
+        {
+          "date": "2026-05-10",
+          "type": "debit",
+          "category": "school_fee",
+          "amount": 39600
+        },
+        {
+          "date": "2026-05-22",
+          "type": "debit",
+          "category": "emi",
+          "amount": 6000
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 74500
+        },
+        {
+          "date": "2026-06-11",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 1900
+        },
+        {
+          "date": "2026-06-17",
+          "type": "debit",
+          "category": "transfer",
+          "amount": 36200
+        }
+      ],
+      "life_event_signals": [
+        "recurring_school_fee"
+      ]
+    },
+    {
+      "customer_id": "CUST1071",
+      "name": "Vivaan Singh",
+      "age": 53,
+      "city": "Kolkata",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        376376,
+        401365,
+        394954,
+        397665,
+        404685,
+        371512
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1072",
+      "name": "Suresh Mukherjee",
+      "age": 33,
+      "city": "Kochi",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "pending",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        479229,
+        472169,
+        478637,
+        448502,
+        448833,
+        448414
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1073",
+      "name": "Kavya Bhat",
+      "age": 48,
+      "city": "Lucknow",
+      "language_pref": "hi",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        25250,
+        32178,
+        24490,
+        58996,
+        97071,
+        116191
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 63300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 94500
+        },
+        {
+          "date": "2026-04-27",
+          "type": "debit",
+          "category": "emi",
+          "amount": 11700
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 91600
+        },
+        {
+          "date": "2026-06-07",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 6400
+        },
+        {
+          "date": "2026-06-12",
+          "type": "debit",
+          "category": "rent",
+          "amount": 10700
+        },
+        {
+          "date": "2026-06-17",
+          "type": "debit",
+          "category": "utility",
+          "amount": 4800
+        }
+      ],
+      "life_event_signals": [
+        "salary_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1074",
+      "name": "Keerthi Kumar",
+      "age": 37,
+      "city": "Hyderabad",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        368334,
+        377647,
+        353277,
+        355697,
+        347027,
+        382755
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1075",
+      "name": "Ayaan Yadav",
+      "age": 40,
+      "city": "Chennai",
+      "language_pref": "ta",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "credit_card",
+        "fd"
+      ],
+      "monthly_balance_avg_6m": [
+        159476,
+        156718,
+        174594,
+        150043,
+        148885,
+        163958
+      ],
+      "transactions_last_90d": [],
+      "life_event_signals": [
+        "dormant_high_value"
+      ]
+    },
+    {
+      "customer_id": "CUST1076",
+      "name": "Ananya Mishra",
+      "age": 46,
+      "city": "Pune",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "moderate",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        116394,
+        105478,
+        102255,
+        107095,
+        111616,
+        310831
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 80300
+        },
+        {
+          "date": "2026-04-17",
+          "type": "debit",
+          "category": "utility",
+          "amount": 1200
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 80300
+        },
+        {
+          "date": "2026-05-10",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 2100
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 80300
+        },
+        {
+          "date": "2026-06-02",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 9300
+        },
+        {
+          "date": "2026-06-03",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 1300
+        },
+        {
+          "date": "2026-06-04",
+          "type": "credit",
+          "category": "maturity",
+          "amount": 203280
+        }
+      ],
+      "life_event_signals": [
+        "large_one_time_credit"
+      ]
+    },
+    {
+      "customer_id": "CUST1077",
+      "name": "Reyansh Iyer",
+      "age": 39,
+      "city": "Bangalore",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        71386,
+        121330,
+        166159,
+        161152,
+        177313,
+        165879
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 114300
+        },
+        {
+          "date": "2026-04-01",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 1100
+        },
+        {
+          "date": "2026-04-21",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 22500
+        },
+        {
+          "date": "2026-04-22",
+          "type": "debit",
+          "category": "rent",
+          "amount": 21000
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 114300
+        },
+        {
+          "date": "2026-04-30",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 59500
+        },
+        {
+          "date": "2026-05-08",
+          "type": "debit",
+          "category": "travel",
+          "amount": 22300
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 114300
+        },
+        {
+          "date": "2026-06-08",
+          "type": "debit",
+          "category": "travel",
+          "amount": 49500
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1078",
+      "name": "Ishaan Mukherjee",
+      "age": 28,
+      "city": "Mumbai",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "conservative",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        197053,
+        195945,
+        56882,
+        120109,
+        57589,
+        97294
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 95800
+        },
+        {
+          "date": "2026-03-25",
+          "type": "debit",
+          "category": "forex",
+          "amount": 72000
+        },
+        {
+          "date": "2026-04-12",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 58100
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 95800
+        },
+        {
+          "date": "2026-05-03",
+          "type": "debit",
+          "category": "travel",
+          "amount": 38000
+        },
+        {
+          "date": "2026-05-15",
+          "type": "debit",
+          "category": "forex",
+          "amount": 24300
+        },
+        {
+          "date": "2026-05-17",
+          "type": "debit",
+          "category": "utility",
+          "amount": 4200
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 95800
+        },
+        {
+          "date": "2026-06-14",
+          "type": "debit",
+          "category": "forex",
+          "amount": 21000
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1079",
+      "name": "Ishaan Reddy",
+      "age": 55,
+      "city": "Kochi",
+      "language_pref": "en",
+      "account_type": "savings",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card",
+        "ppf"
+      ],
+      "monthly_balance_avg_6m": [
+        131325,
+        152749,
+        83803,
+        72208,
+        131155,
+        196518
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 109400
+        },
+        {
+          "date": "2026-04-18",
+          "type": "debit",
+          "category": "utility",
+          "amount": 2400
+        },
+        {
+          "date": "2026-04-21",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 4300
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 109400
+        },
+        {
+          "date": "2026-05-06",
+          "type": "debit",
+          "category": "forex",
+          "amount": 58900
+        },
+        {
+          "date": "2026-05-10",
+          "type": "debit",
+          "category": "forex",
+          "amount": 38800
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 109400
+        },
+        {
+          "date": "2026-05-31",
+          "type": "debit",
+          "category": "forex",
+          "amount": 57300
+        },
+        {
+          "date": "2026-06-18",
+          "type": "debit",
+          "category": "travel",
+          "amount": 48300
+        },
+        {
+          "date": "2026-06-22",
+          "type": "debit",
+          "category": "international_transfer",
+          "amount": 59900
+        }
+      ],
+      "life_event_signals": [
+        "forex_transaction_spike"
+      ]
+    },
+    {
+      "customer_id": "CUST1080",
+      "name": "Kabir Pillai",
+      "age": 55,
+      "city": "Mumbai",
+      "language_pref": "en",
+      "account_type": "current",
+      "kyc_status": "complete",
+      "risk_profile": "aggressive",
+      "existing_products": [
+        "savings_account",
+        "debit_card"
+      ],
+      "monthly_balance_avg_6m": [
+        60503,
+        62619,
+        70110,
+        182361,
+        155476,
+        172112
+      ],
+      "transactions_last_90d": [
+        {
+          "date": "2026-03-25",
+          "type": "credit",
+          "category": "salary",
+          "amount": 66600
+        },
+        {
+          "date": "2026-04-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 66600
+        },
+        {
+          "date": "2026-05-02",
+          "type": "debit",
+          "category": "rent",
+          "amount": 17400
+        },
+        {
+          "date": "2026-05-19",
+          "type": "debit",
+          "category": "grocery",
+          "amount": 7900
+        },
+        {
+          "date": "2026-05-24",
+          "type": "credit",
+          "category": "salary",
+          "amount": 66600
+        },
+        {
+          "date": "2026-06-10",
+          "type": "debit",
+          "category": "shopping",
+          "amount": 11700
+        }
+      ],
+      "life_event_signals": [
+        "idle_balance_high"
+      ]
+    }
+  ]
+}
