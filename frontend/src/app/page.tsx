@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 // API Server URL
-const API_BASE = "http://localhost:8000";
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000";
 
 interface CustomerSummary {
   customer_id: string;
